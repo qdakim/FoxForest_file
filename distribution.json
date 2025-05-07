@@ -136,13 +136,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.8.11+mc1.21.5@jar",
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2714605,
-            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/fabricmods/required/iris-fabric-1.8.11+mc1.21.5.jar",
-            "MD5": "c08a1725cf3ae49482431e9f67054769"
+            "size": 2726899,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/fabricmods/required/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
           }
         },
         {
