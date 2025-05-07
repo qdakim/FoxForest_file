@@ -1,0 +1,370 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "FoxForest-1.20.1",
+      "name": "여우의 숲",
+      "description": "Minecraft 1.20.1 (Fabric v0.16.14)",
+      "icon": "https://github.com/qdakim/FoxForest_file/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "www..foxforest.o-r.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "26bc10a020c42c33ffd95e842dc246e1",
+                "url": "https://github.com/qdakim/FoxForest_file/raw/main/repo/versions/1.20.1-fabric-0.16.14/1.20.1-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://github.com/qdakim/FoxForest_file/raw/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://github.com/qdakim/FoxForest_file/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://github.com/qdakim/FoxForest_file/raw/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://github.com/qdakim/FoxForest_file/raw/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://github.com/qdakim/FoxForest_file/raw/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://github.com/qdakim/FoxForest_file/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://github.com/qdakim/FoxForest_file/raw/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.0@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 343899,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/fabricmods/required/caramelChat-mc1.20.1-fabric-1.2.0.jar",
+            "MD5": "69ec9d55a7a980bc1159cc33e246d581"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209178,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.3-fabric.jar",
+            "MD5": "0daacf8f13dd33450a970601cf21d627"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.30@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8103826,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.30.jar",
+            "MD5": "10efc718572d137c7ba2ab386f307bba"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 174,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 70,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/servers.dat",
+            "MD5": "2196d997833181c804e2105c0b259bb2",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "BeyondBeliefLegacy_V1.2.3.zip",
+          "name": "BeyondBeliefLegacy_V1.2.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 541701,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/BeyondBeliefLegacy_V1.2.3.zip",
+            "MD5": "35e81a7de10bea9ef74b603b2830428d",
+            "path": "shaderpacks/BeyondBeliefLegacy_V1.2.3.zip"
+          }
+        },
+        {
+          "id": "BSLOriginal_v8.3.zip.txt",
+          "name": "BSLOriginal_v8.3.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 176,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/BSLOriginal_v8.3.zip.txt",
+            "MD5": "d4d863a86e7fc9fe77f46a7c092a2374",
+            "path": "shaderpacks/BSLOriginal_v8.3.zip.txt"
+          }
+        },
+        {
+          "id": "BSL_v8.4p1.zip",
+          "name": "BSL_v8.4p1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1105696,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/BSL_v8.4p1.zip",
+            "MD5": "258a2436a0293047b5ff568065f53b2c",
+            "path": "shaderpacks/BSL_v8.4p1.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.4p1.zip.txt",
+          "name": "BSL_v8.4p1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/BSL_v8.4p1.zip.txt",
+            "MD5": "29126341b42798db32bb9f21949f3a32",
+            "path": "shaderpacks/BSL_v8.4p1.zip.txt"
+          }
+        },
+        {
+          "id": "Chocapic13_V9.zip",
+          "name": "Chocapic13_V9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14149623,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/Chocapic13_V9.zip",
+            "MD5": "370978c21f154a0022c4d5b5703b790b",
+            "path": "shaderpacks/Chocapic13_V9.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.3.zip",
+          "name": "ComplementaryReimagined_r5.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 446656,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.3.zip",
+            "MD5": "16aed916088bde7a7e4a252e3d7ebcda",
+            "path": "shaderpacks/ComplementaryReimagined_r5.3.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip.txt",
+          "name": "ComplementaryUnbound_r5.2.2.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 295,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip.txt",
+            "MD5": "2c64f1758f66a034fd4544733d1a515d",
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip.txt"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.3.zip",
+          "name": "ComplementaryUnbound_r5.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 446661,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.3.zip",
+            "MD5": "50893f00c06b63dfd140dbcac22cc69f",
+            "path": "shaderpacks/ComplementaryUnbound_r5.3.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.3.zip.txt",
+          "name": "ComplementaryUnbound_r5.3.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 177,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.3.zip.txt",
+            "MD5": "721347228403ef878b990549c8b4ae3b",
+            "path": "shaderpacks/ComplementaryUnbound_r5.3.zip.txt"
+          }
+        },
+        {
+          "id": "DrDestens MinecraftShaders v2.0.4.zip",
+          "name": "DrDestens MinecraftShaders v2.0.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 127314,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/DrDestens%20MinecraftShaders%20v2.0.4.zip",
+            "MD5": "60d672f5d90fe74c27d31cbf4bb7bcf7",
+            "path": "shaderpacks/DrDestens MinecraftShaders v2.0.4.zip"
+          }
+        },
+        {
+          "id": "Kappa_v5.2.zip",
+          "name": "Kappa_v5.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3868665,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/Kappa_v5.2.zip",
+            "MD5": "70033041456689e15ea1d521016ebb35",
+            "path": "shaderpacks/Kappa_v5.2.zip"
+          }
+        },
+        {
+          "id": "MakeUp-UltraFast-9.0a.zip",
+          "name": "MakeUp-UltraFast-9.0a.zip",
+          "type": "File",
+          "artifact": {
+            "size": 357630,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/MakeUp-UltraFast-9.0a.zip",
+            "MD5": "84bb057ea44f792790c00d7aea5d5c47",
+            "path": "shaderpacks/MakeUp-UltraFast-9.0a.zip"
+          }
+        },
+        {
+          "id": "Nostalgia_v5.0.zip",
+          "name": "Nostalgia_v5.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1843622,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/Nostalgia_v5.0.zip",
+            "MD5": "3d6203d1c170dd175c84cdafaf1b08e4",
+            "path": "shaderpacks/Nostalgia_v5.0.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.51 Extreme-VL.zip",
+          "name": "Sildur's Vibrant Shaders v1.51 Extreme-VL.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142239,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.51%20Extreme-VL.zip",
+            "MD5": "cffbb5d1e720f96358ab2173c72b938a",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.51 Extreme-VL.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.51 Extreme-VL.zip.txt",
+          "name": "Sildur's Vibrant Shaders v1.51 Extreme-VL.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 219,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.51%20Extreme-VL.zip.txt",
+            "MD5": "c36a7f11a6a1e445d0379a1ca8e16635",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.51 Extreme-VL.zip.txt"
+          }
+        },
+        {
+          "id": "SoftVoxelsLite_v2.0.zip",
+          "name": "SoftVoxelsLite_v2.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2132538,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/SoftVoxelsLite_v2.0.zip",
+            "MD5": "56933461afbe07f3368ab02faed313f5",
+            "path": "shaderpacks/SoftVoxelsLite_v2.0.zip"
+          }
+        },
+        {
+          "id": "Solas Shader V2.3.zip.txt",
+          "name": "Solas Shader V2.3.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 58,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/Solas%20Shader%20V2.3.zip.txt",
+            "MD5": "930c4eb5385f65d29de8c63c8accaad7",
+            "path": "shaderpacks/Solas Shader V2.3.zip.txt"
+          }
+        },
+        {
+          "id": "Solas Shader V2.4.zip",
+          "name": "Solas Shader V2.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1246729,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/shaderpacks/Solas%20Shader%20V2.4.zip",
+            "MD5": "25f7585df4e5b9b08ef82a6dbff78fb7",
+            "path": "shaderpacks/Solas Shader V2.4.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
