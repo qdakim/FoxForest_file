@@ -126,6 +126,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:fabric-api:0.92.5+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107841,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/fabricmods/required/fabric-api-0.92.5+1.20.1.jar",
+            "MD5": "9d6b286586e9d6b40ee161dee1dd271f"
+          }
+        },
+        {
           "id": "journeymap:journeymap:5.10.3@jar",
           "name": "Journeymap",
           "type": "FabricMod",
