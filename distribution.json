@@ -180,9 +180,20 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 174,
+            "size": 305,
             "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/options.txt",
             "path": "options.txt"
+          }
+        },
+        {
+          "id": "Overgrown Flowery GUI.zip",
+          "name": "Overgrown Flowery GUI.zip",
+          "type": "File",
+          "artifact": {
+            "size": 888615,
+            "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/resourcepacks/Overgrown%20Flowery%20GUI.zip",
+            "MD5": "86851f7be50e14cdc834c7197fff836b",
+            "path": "resourcepacks/Overgrown Flowery GUI.zip"
           }
         },
         {

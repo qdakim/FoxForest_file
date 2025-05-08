@@ -2,6 +2,8 @@ version:3465
 autoJump:false
 enableVsync:false
 realmsNotifications:false
+resourcePacks:["vanilla","fabric","file/Overgrown Flowery GUI.zip"]
+incompatibleResourcePacks:["file/Overgrown Flowery GUI.zip"]
 lang:ko_kr
 narrator:0
 tutorialStep:none
