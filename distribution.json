@@ -201,9 +201,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 70,
+            "size": 167,
             "url": "https://github.com/qdakim/FoxForest_file/raw/main/servers/FoxForest-1.20.1/files/servers.dat",
-            "MD5": "2196d997833181c804e2105c0b259bb2",
+            "MD5": "25991fb14fb41e0bb1cab8f19e4bea5b",
             "path": "servers.dat"
           }
         },
