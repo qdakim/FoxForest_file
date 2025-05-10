@@ -13,7 +13,7 @@
       "description": "Minecraft 1.20.1 (Fabric v0.16.14)",
       "icon": "https://github.com/qdakim/FoxForest_file/raw/main/server-icon.png",
       "version": "1.0.0",
-      "address": "www..foxforest.o-r.kr",
+      "address": "www.foxforest.o-r.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
